@@ -1,0 +1,25 @@
+h1{
+    color:blue; 
+ }
+ p{
+     color:white;
+     background-color: crimson;
+     padding: 15px;
+     border: 10px solid powderblue;
+     /*Los diferenestes tipos para poder accerder
+     a ellos 
+     
+     los de arriba tambien tiene la misma funccion*/
+
+     /*margin-top: 40px;
+     margin-right: 10px;
+     margin-bottom: 20px;
+     margin-left: 10px;*/
+
+     /*       top-right-botton-left*/
+     /*margin:40px 10px 40px 10px */
+     
+     margin:auto 50px;
+     
+     text-align: center;
+ }

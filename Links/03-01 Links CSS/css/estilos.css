@@ -1,0 +1,25 @@
+h1{
+    color: #f07167;
+}
+/*link por defecto cuando se ve 
+antes de haberle dado click*/
+a:link {
+    color:#fb8500;
+    text-decoration: none;/*no este subrayado*/
+}
+/*link por defecto cuando se ve 
+despues de haberle dado click*/
+a:visited{
+    color:#219ebc;
+    text-decoration: none;/*no este subrayado*/
+}
+/*cuando nos ponemos encima del link*/
+a:hover{
+    color:yellowgreen;
+    text-decoration: underline;/*este subrayado*/
+}
+/*cuando damos click*/
+a:active {
+    color: #023047;
+    text-decoration: underline;/*este subrayado*/
+}

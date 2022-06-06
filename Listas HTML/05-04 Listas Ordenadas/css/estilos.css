@@ -1,0 +1,17 @@
+/*a todos los elementos de ol*/
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+/*los elementos de li que estan en ol*/
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{
+    content: 'Curso ' counter(contador) ') ';
+    color:#ff6f00;
+}
+ol li::after{
+    content: '.';
+}

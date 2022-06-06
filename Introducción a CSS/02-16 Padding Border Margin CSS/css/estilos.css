@@ -1,0 +1,15 @@
+h1{
+    color:blue; 
+ }
+ p{
+     /*Color*/
+     color:white;
+     /*fondo*/
+     background-color: crimson;
+     /*Primer capa*/
+     padding: 20px;
+     /*Segunda capa*/
+     border: 50px solid powderblue;
+     /*Tercer capa*/
+     margin:50px;
+ }
